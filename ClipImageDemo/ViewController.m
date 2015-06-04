@@ -152,7 +152,7 @@
         
         if (index == 0) {
             CGPathMoveToPoint(path, NULL, point.x, point.y);
-            start = point;
+          //  start = point;
         }
         else {
             CGPathAddLineToPoint(path, NULL, point.x, point.y);
